@@ -422,8 +422,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = USBApp/USBApp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+                CODE_SIGN_ENTITLEMENTS = "";
+                CODE_SIGN_IDENTITY = "";
+                CODE_SIGN_STYLE = Manual;
+
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "USBApp/Preview\\ Content";
 				DEVELOPMENT_TEAM = "";
@@ -443,8 +445,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = USBApp/USBApp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+                CODE_SIGN_ENTITLEMENTS = "";
+                CODE_SIGN_IDENTITY = "";
+                CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "USBApp/Preview\\ Content";
 				DEVELOPMENT_TEAM = "";
@@ -464,8 +467,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_ENTITLEMENTS = MyUserUSBInterfaceDriver/MyUserUSBInterfaceDriver.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+                CODE_SIGN_ENTITLEMENTS = "";
+                CODE_SIGN_IDENTITY = "";
+                CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -484,8 +488,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_ENTITLEMENTS = MyUserUSBInterfaceDriver/MyUserUSBInterfaceDriver.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+                CODE_SIGN_ENTITLEMENTS = "";
+                CODE_SIGN_IDENTITY = "";
+                CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
 				FRAMEWORK_SEARCH_PATHS = (
