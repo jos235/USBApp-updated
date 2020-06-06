@@ -1,6 +1,9 @@
-# USBApp
-A small test app that tries to load a USBDriverKit system extension
+# USBApp - updated 
 
-https://developer.apple.com/videos/play/wwdc2019/702/
+This is a version of the USBApp demo that has code signing removed from the project and implemented in a separate script.
 
-You will want to edit the Info.plist of the DriverKit extension to match the Vendor ID and Product ID of a test device you have. Then after you activate the extension, attach the USB device and your DriverKit application should start on demand.
+This project should work without entitlements on a Mac that has System Integrity Protection disabled.
+
+See the Makefile and codesign.sh for details.
+
+
