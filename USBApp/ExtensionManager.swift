@@ -15,6 +15,7 @@ class ExtensionManager : NSObject, OSSystemExtensionRequestDelegate {
     static let shared = ExtensionManager()
     
     func activate() {
+        os_log("sysex activation request for %@", "sc.knight.MyUserUSBInterfaceDriver")
         let activationRequest = OSSystemExtensionRequest.activationRequest(forExtensionWithIdentifier: "sc.knight.MyUserUSBInterfaceDriver", queue: .main)
         activationRequest.delegate = self
         OSSystemExtensionManager.shared.submitRequest(activationRequest)
