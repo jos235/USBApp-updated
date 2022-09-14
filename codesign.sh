@@ -4,7 +4,7 @@
 # Use this to find your certificate identity:
 #	security find-identity
 #
-readonly CODE_SIGN_IDENTITY=AF81FE1962517ECAABF73719286C4829C4C06EA5
+readonly CODE_SIGN_IDENTITY=3238E5EA20202051214E572E0E0E616F6F082DDD
 
 set -e
 
