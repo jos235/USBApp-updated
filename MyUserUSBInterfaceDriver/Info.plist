@@ -27,19 +27,15 @@
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
+			<string>IOUSBHostDevice</string>
 			<key>IOUserClass</key>
 			<string>MyUserUSBInterfaceDriver</string>
 			<key>IOUserServerName</key>
 			<string>sc.knight.MyUserUSBInterfaceDriver</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
 			<key>idVendor</key>
-			<integer>1921</integer>
+			<integer>4362</integer>
 			<key>idProduct</key>
-			<integer>21863</integer>
+			<integer>4368</integer>
 		</dict>
 	</dict>
 	<key>OSBundleUsageDescription</key>
